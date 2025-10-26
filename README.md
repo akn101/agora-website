@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Agora - Refugee Support Platform
+
+A secure, community-driven mobile platform designed to help refugees overcome social isolation by connecting with others who share their cultural, linguistic, and regional backgrounds.
+
+## About Agora
+
+Agora empowers refugees to take control of their social integration journey by forming or joining localised digital communities, hosting and attending events, and engaging in conversation in their own language, within groups tailored to their identity and experience.
+
+Built in collaboration with refugee support organisations and global experts, Agora is designed to be simple, safe, and scalable — giving refugees the tools they need to create their own meaningful support networks.
+
+## Website
+
+This repository contains the marketing website for the Agora project, built with Next.js 15 and Tailwind CSS.
+
+### Features
+
+- **Responsive Design**: Fully responsive layout optimized for all devices
+- **Modern UI**: Clean, accessible design with smooth animations
+- **Performance**: Built with Next.js 15 and Turbopack for optimal performance
+- **SEO Ready**: Semantic HTML and proper meta tags
+- **Type Safe**: Written in TypeScript
+
+### Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Deployment**: Vercel-ready
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.17 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd agora-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push your code to GitHub
+2. Import your repository on Vercel
+3. Vercel will automatically detect Next.js and configure the build settings
+4. Your site will be live in minutes!
 
-## Deploy on Vercel
+### Build for Production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+```
+agora-website/
+├── app/
+│   ├── components/      # React components
+│   ├── globals.css      # Global styles
+│   ├── layout.tsx       # Root layout
+│   └── page.tsx         # Homepage
+├── public/              # Static assets (images, logo, screenshots)
+├── package.json
+└── tsconfig.json
+```
+
+## Contact
+
+For inquiries about the Agora project, please contact: agora.project@akn.org.uk
+
+## License
+
+© 2025 Agora. All rights reserved.
+
+---
+
+*an akn innovation*
