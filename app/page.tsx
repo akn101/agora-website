@@ -299,6 +299,9 @@ export default function Home() {
           <p className="text-slate-600 mb-2">
             &copy; {new Date().getFullYear()} Agora. All rights reserved.
           </p>
+          <p className="text-slate-500 text-sm mb-2">
+            Made with love by John Buchan, Zain Carrimjee, Ahnaf Kabir, and Sandy Riddick
+          </p>
           <p className="text-slate-500 text-sm">
             an akn innovation
           </p>
