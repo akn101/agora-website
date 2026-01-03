@@ -43,6 +43,13 @@ export default function Home() {
             >
               Get in Touch
             </a>
+            <a
+              href="https://agora.akn.org.uk"
+              className="px-8 py-4 bg-slate-900 text-white rounded-full font-semibold hover:bg-slate-800 transition-all hover:scale-105 shadow-lg"
+            >
+              Charity & Staff Login
+            </a>
+
           </div>
         </div>
 
